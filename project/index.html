@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Forgotten Frontier</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+
+    <nav class="navbar">
+
+        <a href="#home" class="logo">
+            THE FORGOTTEN FRONTIER
+        </a>
+
+        <div class="nav-links">
+
+            <a href="#home">Home</a>
+
+            <!-- EXPLORE DROPDOWN -->
+
+            <div class="dropdown">
+
+                <a href="#explore" class="dropbtn">
+                    Explore <span>⌄</span>
+                </a>
+
+                <div class="dropdown-content">
+
+                    <a href="#moon">The Moon</a>
+
+                    <a href="#mars">Mars</a>
+
+                </div>
+
+            </div>
+
+            <a href="#timeline">Timeline</a>
+
+            <a href="#quiz">Quiz</a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- HERO SECTION -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                NASA SPACE APPS CHALLENGE 2026
+            </p>
+
+            <h1>
+                THE FORGOTTEN<br>FRONTIER
+            </h1>
+
+            <p class="subtitle">
+                The stories of humanity's forgotten machines in space.
+            </p>
+
+            <p class="description">
+                Across the Moon and Mars, humanity has left behind
+                machines that changed the history of exploration.
+                Their missions may have ended, but their stories haven't.
+            </p>
+
+            <a href="#explore" class="main-button">
+                BEGIN EXPLORATION →
+            </a>
+
+        </div>
+
+        <div class="scroll-indicator">
+            SCROLL TO EXPLORE
+        </div>
+
+    </section>
+
+
+    <!-- INTRODUCTION -->
+
+    <section class="intro section" id="explore">
+
+        <p class="eyebrow">BEYOND THE MISSION</p>
+
+        <h2>Not everything returns home.</h2>
+
+        <p>
+            Every space mission leaves something behind.
+            Some machines complete their mission and remain
+            on distant worlds. Others become silent witnesses
+            to humanity's greatest achievements.
+        </p>
+
+        <p class="explore-instruction">
+            Choose a world below to begin your exploration.
+        </p>
+
+    </section>
+
+
+    <!-- THE MOON SECTION -->
+
+    <section class="planet-section section" id="moon">
+
+        <div class="planet-heading">
+
+            <p class="eyebrow">DESTINATION 01</p>
+
+            <h2>THE MOON</h2>
+
+            <p>
+                Humanity's first steps beyond Earth.
+                Discover the machines and instruments left
+                behind on our closest celestial neighbour.
+            </p>
+
+        </div>
+
+
+        <div class="artifact-grid">
+
+            <!-- APOLLO -->
+
+            <article class="artifact-card moon">
+
+    <img src="https://nssdc.gsfc.nasa.gov/planetary/image/ap11_lm_as11_40_5927.jpg"
+         alt="Apollo Lunar Module"
+         class="card-image">
+
+    <div class="card-content">
+
+        <h3>Apollo Lunar Module</h3>
+
+        <p>
+            The descent stages of the Lunar Modules (like Apollo 11's Eagle) were left behind as launch pads.
+        </p>
+
+        <button class="story-button"
+            data-artifact="apollo">
+
+            DISCOVER STORY →
+
+        </button>
+
+    </div>
+
+</article>
+
+            <article class="artifact-card moon">
+
+                <img src="https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_15_lm.jpg"
+         alt="Lunar Roving Vehicles(LRV)"
+         class="card-image">
+
+
+                <div class="card-content">
+
+                    
+
+                    <h3>Lunar Roving Vehicles(LRV)</h3>
+
+                    <p>
+                         Three electric "moon buggies" driven by astronauts. Parked permanently on the Moon.
+                    </p>
+
+                    <button class="story-button"
+                        data-artifact="LRV">
+
+                        DISCOVER STORY →
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article class="artifact-card moon">
+
+                <img src="https://nssdc.gsfc.nasa.gov/planetary/image/apollo12_lunar_module.jpg"
+         alt="ALSEP Scientific Packages"
+         class="card-image">
+
+
+                <div class="card-content">
+
+                    
+
+                    <h3>ALSEP Scientific Packages</h3>
+
+                    <p>
+                        Apollo Lunar Surface Experiments Packages (seismometers, retroreflectors, etc.) left to do science after astronauts departed.
+                    </p>
+
+                    <button class="story-button"
+                        data-artifact="ALSEP">
+
+                        DISCOVER STORY →
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- RETROREFLECTORS -->
+
+            <article class="artifact-card reflector">
+
+                <img src="https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/07/as12-48-7134_1280.jpg"
+         alt="Surveyor Landers"
+         class="card-image">
+
+
+                <div class="card-content">
+
+                    
+
+                    <h3>Surveyor Landers</h3>
+
+                    <p>
+                        Robotic probes sent in the 1960s to prove soft landings were possible.
+                    </p>
+
+                    <button class="story-button"
+                        data-artifact="Surveyor">
+
+                        DISCOVER STORY →
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article class="artifact-card moon">
+
+    <img src="https://images-assets.nasa.gov/image/as14-66-09277/as14-66-09277~large.jpg?w=1920&h=1920&fit=clip&crop=faces%2Cfocalpoint"
+         alt="Apollo14"
+         class="card-image">
+
+    <div class="card-content">
+
+        <h3>Apollo 14:Abandoned Equipment</h3>
+
+        <p>
+            Apollo 14 left behind its Lunar Module descent stage, scientific instruments, ALSEP experiments and equipment cart, preserving a lasting record of humanity's exploration of the Moon.
+        </p>
+
+        <button class="story-button"
+            data-artifact="apollo14">
+
+            DISCOVER STORY →
+
+        </button>
+
+    </div>
+
+</article>
+
+
+<article class="artifact-card moon">
+
+    <img src="https://images-assets.nasa.gov/image/as17-147-22526/as17-147-22526~large.jpg?w=1920&h=1920&fit=clip&crop=faces%2Cfocalpoint"
+         alt="Apollo Lunar Module"
+         class="card-image">
+
+    <div class="card-content">
+
+        <h3>Apollo17</h3>
+
+        <p>
+            Apollo 17 left behind its lunar descent stage, Lunar Roving Vehicle, scientific instruments and other equipment at the Taurus-Littrow site, marking the final human exploration of the Moon.
+        </p>
+
+        <button class="story-button"
+            data-artifact="apollo17">
+
+            DISCOVER STORY →
+
+        </button>
+
+    </div>
+
+</article>
+
+
+<article class="artifact-card moon">
+
+    <img src="https://cdn.mos.cms.futurecdn.net/u9T5zekyWmf2aSzAZuke7K-650-80.jpg"
+         alt="LCROSS"
+         class="card-image">
+
+    <div class="card-content">
+
+        <h3>LCROSS</h3>
+
+        <p>
+            LCROSS deliberately crashed its Centaur rocket stage and spacecraft into the Moon, helping NASA confirm the presence of water ice near the lunar south pole.
+        </p>
+
+        <button class="story-button"
+            data-artifact="LCROSS">
+
+            DISCOVER STORY →
+
+        </button>
+
+    </div>
+
+</article>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- MARS SECTION -->
+
+    <section class="planet-section section" id="mars">
+
+        <div class="planet-heading">
+
+            <p class="eyebrow">DESTINATION 02</p>
+
+            <h2>MARS</h2>
+
+            <p>
+                A world of robotic exploration.
+                Meet the machines that helped us understand
+                the Red Planet.
+            </p>
+
+        </div>
+
+
+        <div class="artifact-grid">
+
+            <!-- SOJOURNER -->
+
+            <article class="artifact-card mars">
+
+                <img src="https://science.nasa.gov/wp-content/uploads/2017/12/pia00621-pathfinder-and-sojourner-with-airbags-deflated.jpg"
+         alt="Sojourner"
+         class="card-image">
+
+                <div class="card-content">
+
+
+                    <h3>Sojourner Rover</h3>
+
+                    <p>
+                        The first rover on Mars (1997), delivered by the Pathfinder lander. Now permanently parked.
+                    </p>
+
+                    <button class="story-button"
+                        data-artifact="sojourner">
+
+                        DISCOVER STORY →
+
+                    </button>
+
+                </div>
+
+            </article>
+
+        
+
+
+
+            <article class="artifact-card mars">
+
+                <img src="https://science.nasa.gov/wp-content/uploads/2024/03/sol058-to-060-lion-king-pia05755.jpg"
+         alt="Spirit & Opportunity"
+         class="card-image">
+
+                <div class="card-content">
+
+
+                    <h3>Spirit & Opportunity</h3>
+
+                    <p>
+                        Twin rovers that operated for years. Both are now inactive monuments to Mars exploration.
+                    </p>
+
+                    <button class="story-button"
+                        data-artifact="spirit">
+
+                        DISCOVER STORY →
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article class="artifact-card mars">
+
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Viking_spacecraft.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+         alt="Viking"
+         class="card-image">
+
+                <div class="card-content">
+
+
+                    <h3>Viking 1 & 2 Landers</h3>
+
+                    <p>
+                        The first U.S. landers to successfully operate on Mars (1976), remaining exactly where they touched down.
+                    </p>
+
+                    <button class="story-button"
+                        data-artifact="viking">
+
+                        DISCOVER STORY →
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="artifact-card mars">
+
+                <img src="https://assets.science.nasa.gov/content/dam/science/psd/mars/downloadable_items/3/8/38686_Mars-InSight-Solar-Panels-Open-pia196641.jpg"
+         alt="Phoenix"
+         class="card-image">
+
+                <div class="card-content">
+
+
+                    <h3>Phoenix & InSight Landers</h3>
+
+                    <p>
+                        Phoenix dug for water ice; InSight listened for marsquakes. Both eventually lost power.
+                    </p>
+
+                    <button class="story-button"
+                        data-artifact="phoenix">
+
+                        DISCOVER STORY →
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article class="artifact-card mars">
+
+                <img src="https://www.sciencedaily.com/images/1200/nasa-perseverance-mars-rover-exploring-planet.webp"
+         alt="Perseverance"
+         class="card-image">
+
+                <div class="card-content">
+
+
+                    <h3>Perseverance Rover</h3>
+
+                    <p>
+                        The parachute, heat shield, and protective aeroshell were discarded during Perseverance’s landing on Mars.
+                    </p>
+
+                    <button class="story-button"
+                        data-artifact="perseverance">
+
+                        DISCOVER STORY →
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article class="artifact-card mars">
+
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg/960px-Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail"
+         alt="Curiosity"
+         class="card-image">
+
+                <div class="card-content">
+
+
+                    <h3>Curiosity Rover</h3>
+
+                    <p>
+                        Curiosity discarded its cruise stage, heat shield, parachute, backshell and sky crane during its landing on Mars.
+                    </p>
+
+                    <button class="story-button"
+                        data-artifact="curiosity">
+
+                        DISCOVER STORY →
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+
+
+            <article class="artifact-card helicopter">
+
+                <img src="https://assets.science.nasa.gov/content/dam/science/psd/mars/downloadable_items/4/5/45954_PIA24581.jpg"
+         alt="Ingenuity"
+         class="card-image">
+
+                <div class="card-content">
+
+
+                    <h3>Ingenuity Helicopter</h3>
+
+                    <p>
+                        The first aircraft on another planet. Sustained rotor damage and became a stationary artifact.
+                    </p>
+
+                    <button class="story-button"
+                        data-artifact="ingenuity">
+
+                        DISCOVER STORY →
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- STORY POP-UP -->
+
+    <div class="modal" id="story-modal">
+
+        <div class="modal-content">
+
+            <button class="close-button" id="close-modal">
+                ×
+            </button>
+
+            <p class="eyebrow" id="story-location"></p>
+
+            <h2 id="story-title"></h2>
+
+            <p id="story-description"></p>
+
+            <p class="story-extra" id="story-extra"></p>
+
+        </div>
+
+    </div>
+
+
+    <!-- TIMELINE -->
+
+    <section class="timeline-section section" id="timeline">
+
+        <p class="eyebrow">A JOURNEY THROUGH TIME</p>
+
+        <h2>Milestones of Exploration</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <span>1966</span>
+                <p>Surveyor 1 successfully lands on the Moon.</p>
+            </div>
+
+            <div class="timeline-item">
+                <span>1969</span>
+                <p>Apollo 11 lands humans on the Moon.Apollo 12 deploys the first ALSEP scientific experiment package.</p>
+            </div>
+
+            <div class="timeline-item">
+                <span>1971</span>
+                <p>Apollo 15 carries the first lunar rover.Explored the Fra Mauro region and left behind its lunar module descent stage, ALSEP experiments and equipment.</p>
+            </div>
+
+            <div class="timeline-item">
+                <span>1972</span>
+                <p>Last crewed Moon landing; left behind the lunar module descent stage, lunar rover and scientific equipment.</p>
+            </div>
+
+            <div class="timeline-item">
+                <span>1976</span>
+                <p>Viking 1 and 2 become the first successful U.S. landers to operate on Mars.</p>
+            </div>
+
+            <div class="timeline-item">
+                <span>1997</span>
+                <p>Sojourner explores the surface of Mars.</p>
+            </div>
+
+            <div class="timeline-item">
+                <span>2004</span>
+                <p>Spirit and Opportunity land on Mars and begin exploring its surface.</p>
+            </div>
+
+            <div class="timeline-item">
+                <span>2008</span>
+                <p>Phoenix lands on Mars and discovers water ice beneath the surface.</p>
+            </div>
+
+            <div class="timeline-item">
+                <span>2009</span>
+                <p>Deliberately crashed into the Moon, helping confirm water ice near the lunar south pole.</p>
+            </div>
+
+            <div class="timeline-item">
+                <span>2012</span>
+                <p>Curiosity lands in Gale Crater to investigate Mars's ancient environment.</p>
+            </div>
+
+            <div class="timeline-item">
+                <span>2018</span>
+                <p>InSight lands on Mars to study its internal structure and detect marsquakes.</p>
+            </div>
+
+            <div class="timeline-item">
+                <span>2021</span>
+                <p>Ingenuity completes its first powered flight on Mars.Perseverance lands in Jezero Crater.</p>
+            </div>
+
+            <div class="timeline-item">
+                <span>2024</span>
+                <p>Ingenuity's mission ends after rotor damage.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- QUIZ -->
+
+    
+<section class="quiz-section section" id="quiz">
+
+    <p class="eyebrow">TEST YOUR KNOWLEDGE</p>
+
+    <h2>Mission Control</h2>
+
+    <p id="question-number">Question 1 of 5</p>
+
+    <p id="quiz-question">
+        Which rover became the first successful rover
+        to operate on Mars?
+    </p>
+
+    <div class="quiz-options">
+
+        <button class="quiz-option" data-answer="wrong">
+            Curiosity
+        </button>
+
+        <button class="quiz-option" data-answer="correct">
+            Sojourner
+        </button>
+
+        <button class="quiz-option" data-answer="wrong">
+            Perseverance
+        </button>
+
+    </div>
+
+    <p id="quiz-result"></p>
+
+    <button id="next-question" style="display:none;">
+        Next Question
+    </button>
+
+    <p id="quiz-score"></p>
+
+</section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h2>THE FORGOTTEN FRONTIER</h2>
+
+        <p>
+            Their missions ended. Their stories remain.
+        </p>
+
+        <p class="credits">
+            Created by Team The Forgotten Frontier<br>
+            NASA Space Apps Challenge 2026
+        </p>
+
+        <p class="credits">
+
+            Research and imagery references:
+
+            <a href="https://images.nasa.gov/" target="_blank">
+                NASA Image Library
+            </a>
+
+            ·
+
+            <a href="https://science.nasa.gov/" target="_blank">
+                NASA Science
+            </a>
+
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
